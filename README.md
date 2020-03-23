@@ -3,7 +3,7 @@ This part of the workshop is divided in two sections:
 1)Accessing IBM Cloud - the Free Lite Account   
 2)Getting started on Openshift Platform
 - Working with the OpenShift Web Console
-- Working with the occommand line tool
+- Working with the oc command line tool
 
 ## Accessing IBM Cloud - the Free Lite Account
 
