@@ -93,10 +93,10 @@ Verify whether you are on the Terminal window and should be able to access it.
 
 ### Login to the OpenShift Cluster
 
-Once `oc` is installed, copy the login command from the OpenShift Web Console and paste it into a command window (shell). It will look similar to this:
+To login to the OpenShift cluster from the Terminal run:
 
 ```
-$ oc login https://c100-e.us-south.containers.cloud.ibm.com:30*** --token=z5cuqxABC-9QdqE1ivXYZ1z_Y6Tghj1qxN-abCWc1Bg
+$ oc login -u developer -p developer  2886795357-8443-cykoria05.environments.katacoda.com
 ```
 
 If login is successfull you will see all the projects on OpenShift that you have access to. 
@@ -113,7 +113,7 @@ Keep the command line open but go back to the OpenShift Web Console.
 ```
 $ oc project blog
 
-Now using project "blog" on server "https://c100-e.us-south.containers.cloud.ibm.com:30***".
+Now using project "blog" on server "https://2886795357-8443-cykoria05.environments.katacoda.com:***".
 ```
 
 3. Display all objects that belong to your project:
