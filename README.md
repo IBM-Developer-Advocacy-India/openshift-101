@@ -78,7 +78,7 @@ The user should be able to see message like below -
 9. Leave the defaults and click "Deploy". In the resulting dialog click the "Continue to the project overview" link.
 ![os_deploy_3](images/Picture2.png)
 
-10. In the project overview, click on the twistie (1) to open the overview of the application. This example should be familiar, it was used in the second tutorial on the Red Hat Learning portal. Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open. If you want, scale the deployment up and down (3).
+10. In the project overview, click on the twistie (1) to open the overview of the application. Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open. If you want, scale the deployment up and down (3).
 
 ![os_deploy_4](images/os_deploy_3.png)
 
