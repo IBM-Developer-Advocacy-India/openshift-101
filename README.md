@@ -1,7 +1,3 @@
-# Openshift-India
-Openshift-India
-
-
 # Welcome to the Openshift India tour tutorial:
 This part of the workshop is divided in two sections:   
 1)Accessing IBM Cloud - the Free Lite Account   
