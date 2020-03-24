@@ -91,7 +91,7 @@ Verify whether you are on the Terminal window and should be able to access it.
 
 ### Login to the OpenShift Cluster
 
-To login to the OpenShift cluster from the Terminal run:
+To login to the OpenShift cluster from the Terminal run the command mentioned in your left panel. It should be something like below command:
 
 ```
 $ oc login -u developer -p developer  2886795357-8443-cykoria05.environments.katacoda.com
