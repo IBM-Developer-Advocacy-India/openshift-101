@@ -43,42 +43,40 @@ Be ready to get started with the Openshift Playground by accessing the action it
 
 Keep following the below mentioned steps as mentioned in the portal and continue with the workshop. 
 
-Steps-
-
-1. Click on the Dashboard tab at the top.
+5) Click on the Dashboard tab at the top.
 ![Dashboard](images/Dashboard.png)
 
-2. Use the below credentials to login to the web console:
+6) Use the below credentials to login to the web console:
 
 * Username: developer
 * Password: ********
 
 ![Login Dashboard](images/Login_dashboard.png)
 
-3. Once the user is successfully logged in , you should be able to view the web console dashboard.
+7) Once the user is successfully logged in , you should be able to view the web console dashboard.
 ![web Dashboard](images/Web_dashboard.png)
 
-4. In the OpenShift Web Console, click "+ Create Project" and give your project a name, e.g. "blog". Click "Create".
+8) In the OpenShift Web Console, click "+ Create Project" and give your project a name, e.g. "blog". Click "Create".
 
 The user should be able to see message like below - 
 ![blog message](images/blog.png)
 
-5. Click on your new project "blog" in the "My Projects" list. This opens the projects Overview, which is empty and offers you some "Get started" options.
+9) Click on your new project "blog" in the "My Projects" list. This opens the projects Overview, which is empty and offers you some "Get started" options.
 ![Deploy1](images/Deploy1.png)
 
-6. Click on "Deploy Image".
+10) Click on "Deploy Image".
 
-7. Select "Image Name" and enter `openshiftkatacoda/blog-django-py` as name, then click on the "magnifying glass". 
+11) Select "Image Name" and enter `openshiftkatacoda/blog-django-py` as name, then click on the "magnifying glass". 
 ![Deploy image](images/image1.png)
 
-8.  OpenShift reads details from the image and displays them. It fills in a name, based on the image name, and a label "app" whose content is also based on the image name. 
+12) OpenShift reads details from the image and displays them. It fills in a name, based on the image name, and a label "app" whose content is also based on the image name. 
 
 ![os_deploy_2](images/Picture1.png)
 
-9. Leave the defaults and click "Deploy". In the resulting dialog click the "Continue to the project overview" link.
+13) Leave the defaults and click "Deploy". In the resulting dialog click the "Continue to the project overview" link.
 ![os_deploy_3](images/Picture2.png)
 
-10. In the project overview, click on the twistie (1) to open the overview of the application. Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open. If you want, scale the deployment up and down (3).
+14) In the project overview, click on the twistie (1) to open the overview of the application. Create a Route (2), accept the defaults, and click on the resulting URL. The blog application should open. If you want, scale the deployment up and down (3).
 
 ![os_deploy_4](images/os_deploy_3.png)
 
