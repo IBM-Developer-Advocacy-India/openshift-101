@@ -1,4 +1,4 @@
-# Welcome to the Openshift India tour tutorial:
+# The Ultimate Kubernetes with RedHat OpenShift workshop series: Webcast 1
 This part of the workshop is divided in two sections:   
 1)Accessing IBM Cloud - the Free Lite Account   
 2)Getting started on Openshift Platform
