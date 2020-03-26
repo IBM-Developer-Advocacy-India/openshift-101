@@ -1,23 +1,29 @@
 # The Ultimate Kubernetes with RedHat OpenShift workshop series: Webcast 1
-This part of the workshop is divided in two sections:   
-1)Accessing IBM Cloud - the Free Lite Account   
-2)Getting started on Openshift Platform
-- Working with the OpenShift Web Console
-- Working with the oc command line tool
+
+This part of the workshop is divided in two sections:
+
+1. Accessing IBM Cloud - the Free Lite Account
+
+2. Getting started on Openshift Platform
+   - Working with the OpenShift Web Console
+   - Working with the oc command line tool
 
 ## Accessing IBM Cloud - the Free Lite Account
 
 This section will help you in accessing IBM Cloud with a free lite account.
-1) Sign up on IBM Cloud or login here : http://ibm.biz/kwrowt-101
 
-#### You created a new IBM Cloud lite account    
+#### 1. Sign up on IBM Cloud or login here : http://ibm.biz/kwrowt-101
+
+You created a new IBM Cloud lite account
 Congratulations! You have created a new IBM Cloud lite account. Now you can use it for free, taking advantage of its free tier.
 ![Thanks](images/Thanks.png)
 
 #### 2. Activate your account
+
 Click on the confirmation link in the email you received from IBM to activate your cloud account. Make sure you check the spam folder in your email. Now you are ready to access your IBM Cloud Dashboard, and check the Next Steps section.
 
 #### Next Steps
+
 When you have successfully finished sign up process - you are ready for the next steps. Please claim your pre-provisioned cluster, and set up your environment for the labs.
 
 ## Getting started on Openshift Platform
@@ -84,12 +90,12 @@ The user should be able to see message like below -
 
 The OpenShift `oc` command line tool includes all the functionality of the Kubernetes native `kubectl` CLI but it has also all the function required for OpenShift specifics, e.g. a `login` command to access the OpenShift cluster.
 
-### Install the OpenShift `oc` CLI
+#### Install the OpenShift `oc` CLI
 
 Go back to the learn.openshift.com window which was opened previously.
 Verify whether you are on the Terminal window and should be able to access it.
 
-### Login to the OpenShift Cluster
+#### Login to the OpenShift Cluster
 
 To login to the OpenShift cluster from the Terminal run the command mentioned in your left panel. It should be something like below command:
 
@@ -101,7 +107,7 @@ If login is successfull you will see all the projects on OpenShift that you have
 
 Keep the command line open but go back to the OpenShift Web Console.
 
-### Working with the `oc` CLI
+#### Working with the `oc` CLI
 
 
 1. Go back to your command line where you used `oc`to logon to your OpenShift cluster.
@@ -153,9 +159,9 @@ imagestream.image.openshift.io/blog-django-py
 route.route.openshift.io/blog-django-py
 ```
 
-   If you go back to the Web Console you should see that it updated the Overview which now should be empty again.
+If you go back to the Web Console you should see that it updated the Overview which now should be empty again.
 
-### Deploy an application from the command line
+#### Deploy an application from the command line
 
 1. Check if the image is available:
 
@@ -249,7 +255,6 @@ project.project.openshift.io "blog" deleted
 You can also delete a complete project from the Web Console.
 
 ---
-
 
 Congratulations! You have completed this workshop!  
 
